@@ -29,7 +29,7 @@ def style_background_dashboad():
                 
                 <style>
                     .stApp{
-                background: #green !important;
+                background: #E0E3FF !important;
                 }
 
                 </style>
@@ -71,7 +71,7 @@ def style_base_layout():
                 font-size: 2rem !important;
                 line-height:0.9 !important;
                 margin-bottom:0rem !important;
-                color: black !important;
+                
                 }
 
                 h3,h4,p{
