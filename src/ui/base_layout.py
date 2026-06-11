@@ -29,7 +29,7 @@ def style_background_dashboad():
                 
                 <style>
                     .stApp{
-                background: #E0E3FF !important;
+                background-color: #E0E3FF !important;
                 }
 
                 </style>
@@ -82,8 +82,8 @@ def style_base_layout():
                     border-radius: 1.5rem !important;
                     color:white !important;
                     padding:10px 20px !important;
-                    border:none !important;
-                    background:#5865F2 !important;
+                    border :none !important;
+                    background-color:#5865F2 !important;
                     transition : transform 0.25s ease-in-out !important;    
                 }
 
@@ -92,7 +92,7 @@ def style_base_layout():
                     color:white !important;
                     padding:10px 20px !important;
                     border:none !important;
-                    background:#EB459E !important;
+                    background-color:#EB459E !important;
                     transition : transform 0.25s ease-in-out !important;    
                 }
 
@@ -101,7 +101,7 @@ def style_base_layout():
                     color:white !important;
                     padding:10px 20px !important;
                     border:none !important;
-                    background:#EB459E !important;
+                    background-color:#EB459E !important;
                     transition : transform 0.25s ease-in-out !important;    
                 }
 
