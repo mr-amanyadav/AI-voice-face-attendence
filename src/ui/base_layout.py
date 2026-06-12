@@ -92,7 +92,7 @@ def style_base_layout():
                     color:white !important;
                     padding:10px 20px !important;
                     border:none !important;
-                    background-color:#EB459E !important;
+                    background-color:black !important;
                     transition : transform 0.25s ease-in-out !important;    
                 }
 
