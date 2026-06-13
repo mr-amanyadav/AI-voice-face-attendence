@@ -16,5 +16,5 @@ def subject_card(name, code, section, stats=None, footer_callback=None):
                         value=value
                     )
 
-    if footer_callback:
-        footer_callback()
+        if footer_callback:
+            footer_callback()
