@@ -78,16 +78,16 @@ def style_base_layout():
                         font-family:'Outfit',sans-serif;
                 }
                 
-                button{
-                    border-radius: 1.5rem !important;
-                    color:white !important;
-                    padding:10px 20px !important;
-                    border :none !important;
-                    background-color:#5865F2 !important;
-                    transition : transform 0.25s ease-in-out !important;    
+                div.stButton > button{
+                border-radius: 1.5rem !important;
+                color:white !important;
+                padding:10px 20px !important;
+                border :none !important;
+                background-color:#5865F2 !important;
+                transition : transform 0.25s ease-in-out !important;
                 }
 
-                button[kind="tertiary"]{
+                div.stButton>button[kind="tertiary"]{
                     border-radius: 1.5rem !important;
                     color:white !important;
                     padding:10px 20px !important;
@@ -96,7 +96,7 @@ def style_base_layout():
                     transition : transform 0.25s ease-in-out !important;    
                 }
 
-                button[kind="secondary"]{
+                div.stButton>button[kind="secondary"]{
                     border-radius: 1.5rem !important;
                     color:white !important;
                     padding:10px 20px !important;
