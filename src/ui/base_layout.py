@@ -42,7 +42,6 @@ def style_background_dashboad():
 
 
 def style_base_layout():
-    st.success("STYLE LOADED")
 
     st.markdown("""
                  <style>
@@ -76,7 +75,7 @@ def style_base_layout():
                 }
 
                 [data-testid="stHeading"] *{
-                    color:red !important;
+                    color:#2F3142 !important;
                 }
 
                 h3,h4,p{
