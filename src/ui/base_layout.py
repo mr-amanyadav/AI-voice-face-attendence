@@ -74,6 +74,10 @@ def style_base_layout():
                 color: #2F3142 !important;
                 }
 
+                [data-testid="stHeading"] *{
+                    color:red !important;
+                }
+
                 h3,h4,p{
                         color: #2F3142 !important;
                         font-family:'Outfit',sans-serif;
