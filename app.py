@@ -10,7 +10,6 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 
 
 def main():
-    st.write("HELLO TEST")
 
     st.set_page_config(
         page_title='SnapClass - Making Attendance faster using AI',
