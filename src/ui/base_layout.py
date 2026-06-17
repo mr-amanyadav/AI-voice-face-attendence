@@ -42,6 +42,7 @@ def style_background_dashboad():
 
 
 def style_base_layout():
+    st.success("STYLE LOADED")
 
     st.markdown("""
                  <style>
