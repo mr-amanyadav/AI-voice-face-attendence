@@ -7,7 +7,7 @@ def style_background_home():
                 
                 <style>
                     .stApp{
-                background: #5B5DE9 !important;
+                background: #5865F2 !important;
                 }
 
                 .stApp div[data-testid="stColumn"]{
@@ -63,7 +63,7 @@ def style_base_layout():
                 font-size: 3.5rem !important;
                 line-height:1.1 !important;
                 margin-bottom:0rem !important;
-                color: #2F3142 !important;
+                # color: #2F3142 !important;
                 }
 
                 h2{
@@ -71,7 +71,7 @@ def style_base_layout():
                 font-size: 2rem !important;
                 line-height:0.9 !important;
                 margin-bottom:0rem !important;
-                color: #2F3142 !important;
+                # color: #2F3142 !important;
                 }
 
                 [data-testid="stHeading"] *{
