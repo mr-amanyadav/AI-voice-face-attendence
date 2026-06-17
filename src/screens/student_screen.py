@@ -52,7 +52,7 @@ def student_dashboard():
             
             stats_map[sid]['total']+=1
 
-            if logs.get('is_present'):
+            if log.get('is_present'):
                 stats_map[sid]['attended']+=1
 
         cols=st.columns(2)
@@ -144,7 +144,7 @@ def student_screen():
                         st.rerun()
 
                 else:
-                    st.info('facr not recognized you might be a new student!')
+                    st.info('face not recognized you might be a new student!')
                     show_registration=True 
 
 
